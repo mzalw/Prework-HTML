@@ -29,12 +29,18 @@ h1, h2, h3 {
 }
 
 .content {
+    box-sizing: border-box;
     flex-grow: 1;    
     background: #FFF;
     margin:10px auto;
+    max-width: 80%;
+    padding: 50px;
 }
 
-.btn {    
+.btn {
+    display: block;
+    padding: 20px 40px;
+    margin-bottom: 20px;
     text-decoration: none;
     background: #FFAA2F;
     color:#fff;
@@ -52,6 +58,7 @@ h1, h2, h3 {
 }
 
 .gallery-content {
+    overflow-x: auto;
     display: flex;
     flex-direction: row;
 }

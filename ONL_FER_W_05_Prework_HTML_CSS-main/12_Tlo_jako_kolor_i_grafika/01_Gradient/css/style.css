@@ -1,0 +1,6 @@
+.gradient
+{
+    height: 200px;
+    width: 500px;
+    background-image: radial-gradient(red,white,skyblue);
+}
