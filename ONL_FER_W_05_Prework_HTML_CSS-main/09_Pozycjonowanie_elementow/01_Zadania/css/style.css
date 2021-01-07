@@ -10,21 +10,8 @@ body {
     margin-bottom: 20px;
     background: linear-gradient(to right, #FF8D80, #FF6352);
 }
-.menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.logo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
+.menu {}
 .menu-list {
-    display: flex;
-    flex-direction: row;
     list-style: none;
     padding:0;
     margin:0;
@@ -48,8 +35,6 @@ body {
 }
 
 .article {
-    display: flex;
-    flex-direction: ;
     max-width: 1000px;
     margin:0 auto 20px;
     background: #fff;
@@ -59,21 +44,15 @@ body {
 }
 .article-photo {}
 .article-photo img {
-    display: flex;
-    justify-content: flex-end;
     max-width: 100%;
     height: auto;
 }
 .article-content {
-    display: flex;
-    justify-content: flex-start;
     padding: 0 30px;
     font-size: 15px;
     line-height: 1.5em;
 }
 .article-title {
-    display: flex;
-    justify-content: flex-start;
     margin-top: 20px;
     color: #333;
 }
